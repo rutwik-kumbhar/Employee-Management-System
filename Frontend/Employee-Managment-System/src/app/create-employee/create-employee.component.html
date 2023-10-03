@@ -1,0 +1,38 @@
+<div class="container mt-4 w-50 emp">
+    <h2>Create Employee</h2>
+    <form (ngSubmit) = "onSubmit()" aria-required="true">
+        <div class="mb-1">
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="firstName"
+                [(ngModel)]="employee.firstName" name="firstName" >
+        </div>
+
+        <div class="mb-1">
+            <label for="lastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="lastName" 
+                [(ngModel)]="employee.lastName" name="lastName">
+        </div>
+
+        <div class="mb-1">
+            <label for="email" class="form-label">Email</label>
+            <input type="text" class="form-control" id="email"
+                [(ngModel)]="employee.email" name="email">
+        </div>
+
+        <div class="mb-1">
+            <label for="designation" class="form-label">Designation</label>
+            <input type="text" class="form-control" id="designation" 
+                [(ngModel)]="employee.designation" name="designation">
+        </div>
+
+        <div class="mb-1">
+            <label for="salary" class="form-label">Salary</label>
+            <input type="number" class="form-control" id="salary" 
+                [(ngModel)]=employee.salary name="salary">
+        </div>
+        <div class="text-center mt-3 mb-2">
+            <button type="submit" class="btn btn-success w-75">Submit</button>
+        </div>
+      
+    </form>
+</div>
