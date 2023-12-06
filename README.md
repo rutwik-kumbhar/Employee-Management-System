@@ -30,4 +30,4 @@ spring.datasource.driver=com.mysql.cj.jdbc.Driver
 spring.datasource.url=jdbc:mysql://localhost:3306/your-database-name
 spring.datasource.username= Your Username
 spring.datasource.password= Your Password
-spring.jp
+spring.jpa.hibernate.ddl-auto=update
