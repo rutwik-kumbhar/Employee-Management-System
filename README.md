@@ -5,15 +5,15 @@ Our Employee Management System is a robust web application offering seamless CRU
 
 ## Tech Stack
 
-### Frontend
+## Frontend
 - Angular (Version 16)
 - Bootstrap (Styling)
-- 
-### Backend
+  
+## Backend
 - Java 17
 - Spring Boot
 - Spring Data JPA
-### Database
+## Database
 - MySQL
 
   
