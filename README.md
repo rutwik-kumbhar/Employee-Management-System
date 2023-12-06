@@ -16,6 +16,8 @@ Our Employee Management System is a robust web application offering seamless CRU
 ### Database
 - MySQL
 
+![Create Employee](https://github.com/rutwik-kumbhar/Employee-Management-System/blob/main/create-employee.png)
+
 ## Prerequisites
 - Node JS
 - Angular Cli
