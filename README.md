@@ -25,7 +25,7 @@ Our Employee Management System is a robust web application offering seamless CRU
 ## Spring Boot Project Configuration
 Add the following lines to your `application.properties` file to configure the Spring Boot backend:
 ```base
-server.port = 5050
+server.port = 8080
 spring.datasource.driver=com.mysql.cj.jdbc.Driver
 spring.datasource.url=jdbc:mysql://localhost:3306/your-database-name
 spring.datasource.username= Your Username
